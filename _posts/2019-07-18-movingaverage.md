@@ -41,8 +41,9 @@ https://www.quantstart.com/articles/backtesting-systematic-trading-strategies-in
 
 **전략설명**
 
-10일 이동평균선이 20일 이동평균선을 돌파하면 ** 매수! **
-20일 이동평균선이 10일 이동평균선을 돌파하면 ** 매도! **
+10일 이동평균선이 20일 이동평균선을 돌파하면 **매수!**
+
+20일 이동평균선이 10일 이동평균선을 돌파하면 **매도!**
 
 ```python
 from backtesting import Backtest, Strategy
