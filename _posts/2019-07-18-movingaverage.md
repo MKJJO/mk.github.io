@@ -39,7 +39,8 @@ https://www.quantstart.com/articles/backtesting-systematic-trading-strategies-in
 
 <br><br>
 
-**<전략설명>**
+**전략설명**
+
 10일 이동평균선이 20일 이동평균선을 돌파하면 ** 매수! **
 20일 이동평균선이 10일 이동평균선을 돌파하면 ** 매도! **
 
@@ -78,16 +79,16 @@ bt.plot()
 시뮬레이션 결과는 다음과 같다.<br>
 2018.1.1~2019.6.28 기간 중 이동평균 전략으로 투자시 최종 수익률은 104%이다.<br>
 2018.11월 최고 159.8%까지 기록하였으며, 최저 수익률은 2019.4월 95.9% 였다.<br>
-![img_area](/img/posting/2019-07-18-001-1.PNG)<br><br>
+![img_area](/img/posting/2019-07-18-001-1.PNG){: .post-img700}<br><br>
 
 어느 시점에 매수(▲)해야 할지, 매도(▼)해야 할지를 시각적으로 보여준다.<br>
 연두색이 손익이 플러스인 구간, 붉은색이 손익이 마이너스인 구간이다.<br>
-![img_area](/img/posting/2019-07-18-001-2.PNG)<br><br>
+![img_area](/img/posting/2019-07-18-001-2.PNG){: .post-img700}<br><br>
 
 아래 그래프를 통해 주가 흐름과 이동평균선 추이를 확인할 수 있다.<br>
-![img_area](/img/posting/2019-07-18-001-3.PNG)<br><br>
+![img_area](/img/posting/2019-07-18-001-3.PNG){: .post-img700}<br><br>
 
-![img_area](/img/posting/2019-07-18-001-4.PNG)<br>
+![img_area](/img/posting/2019-07-18-001-4.PNG){: .post-img700}<br>
 
 
 
