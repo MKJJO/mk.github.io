@@ -25,7 +25,7 @@ fdr.__version__
 ```
 
 
-자세한 내용은 가이드 페이지 참고
+자세한 내용은 가이드 페이지 참고<br>
 https://financedata.github.io/posts/finance-data-reader-users-guide.html
 
 
@@ -34,11 +34,12 @@ Zipline, TA-LIB 등 백테스팅을 지원하는 다양한 라이브러리가 �
 `Backtrader`라는 모듈을 활용하였다.
 
 
-다른 백테스팅 프레임워크를 알고 싶다면 아래 링크 참고
+다른 백테스팅 프레임워크를 알고 싶다면 아래 링크 참고<br>
 https://www.quantstart.com/articles/backtesting-systematic-trading-strategies-in-python-considerations-and-open-source-frameworks
 
 <br><br>
-** <전략설명> **
+
+**<전략설명>**
 10일 이동평균선이 20일 이동평균선을 돌파하면 ** 매수! **
 20일 이동평균선이 10일 이동평균선을 돌파하면 ** 매도! **
 
