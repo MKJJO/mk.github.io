@@ -141,7 +141,7 @@ plt.legend(loc=2)
 plt.show()
 ```
 
-![img_area](/img/posting/2019-07-21-002-result1.png){: .post-img700}
+![img_area](/img/posting/2019-07-21-002-result1.png){: .post-img}
 
 
 알고리즘을 최대로 활용했을 때 누적된 수익률 그래프를 살펴보자.
@@ -152,7 +152,7 @@ perf.max_leverage.plot()
 plt.show()
 ```
 
-![img_area](/img/posting/2019-07-21-002-result2.png){: .post-img700}
+![img_area](/img/posting/2019-07-21-002-result2.png){: .post-img}
 
 
 <br><br>
