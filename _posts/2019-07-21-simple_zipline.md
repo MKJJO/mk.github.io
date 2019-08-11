@@ -113,6 +113,7 @@ perf = zipline.run_algorithm(start=datetime(2017, 1, 5, 0, 0, 0, 0, pytz.utc),
 
 <br><br>
 ## 5. 결과 비교
+---
 테스팅 결과와 벤치마크인 SPY 지수의 수익률 비교를 위해 SPY 일일 수익률을 생성한다.
 
 ```python
