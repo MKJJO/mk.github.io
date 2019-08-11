@@ -67,7 +67,8 @@ title: Sites
       <a href = "https://ddanggle.gitbooks.io/interpy-kr/content/" target="_sub">
         https://ddanggle.gitbooks.io/interpy-kr/content/</a><br><br>
 
-
+      <p>- Cheat-Sheets for ML/AI</p>
+      <a href = "https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463" target="_sub">https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463</a><br><br>
 
 
 
