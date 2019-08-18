@@ -219,6 +219,30 @@ m
 ![img_area](/img/posting/2019-08-18-001-bouble.PNG){: .post-img700}
 
 
+<br><br>
+### 5. 행정구역별 인구현황 히트맵
+
+```python
+from folium import plugins
+from folium.plugins import HeatMap
+
+
+m = folium.Map(location=[36, 127], tiles="OpenStreetMap", zoom_start=7)
+
+heat_df = target_df[['Y', 'X']]
+
+# List comprehension to make out list of lists
+heat_data = [[row['Y'],row['X']] for index, row in heat_df.iterrows()]
+
+# Plot it on the map
+HeatMap(heat_data).add_to(m)
+
+# Display the map
+m
+```
+
+![img_area](/img/posting/2019-08-18-001-heatmap.PNG){: .post-img700}
+
 
 
 
