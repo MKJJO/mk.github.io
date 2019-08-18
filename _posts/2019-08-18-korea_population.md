@@ -25,6 +25,7 @@ tags: [파이썬응용]
 import requests
 import json
 import pandas as pd
+import numpy as np
 from pandas.io.json import json_normalize
 import os
 import webbrowser
