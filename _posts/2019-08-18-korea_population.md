@@ -115,14 +115,14 @@ webbrowser.open_new("folium_kr.html")
 
 버블차트를 구현하기 전에 우선 행정구역별 중심좌표를 구해야 한다.
 
-
+<br>
 #### 1) json 로드
 ```python
 import json
 json_data=open(state_geo).read()
 jsonResult = json.loads(json_data)
 ```
-
+<br>
 #### 2) 함수 생성
 ```python
 # 중앙위치 계산
@@ -154,7 +154,7 @@ def points_array(points):
     return final_points
 ```
 
-
+<br>
 #### 3) 구역별 중심 DataFrame 생성
 
 ```python
@@ -185,7 +185,7 @@ center_locations['NAME'] = names
 center_locations['X'] = x_list
 center_locations['Y'] = y_list
 ```
-
+<br>
 #### 4) 위치정보와 인구현황데이터 병합
 
 ```python
@@ -193,7 +193,7 @@ target_df = pd.merge(state_data,center_locations, how = 'left', on = 'CODE')
 target_df = target_df[~np.isnan(target_df['X'])] # 위치 정보 없는 값 제외
 ```
 
-
+<br>
 #### 5) 버블차트 생성
 ```python
 # Initialize the map:
