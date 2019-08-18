@@ -252,7 +252,7 @@ m
 ---
 - https://blog.naver.com/PostView.nhn?blogId=kcchang61&logNo=221350672356
 
-** 또다른 json 제공 링크 **
+**또다른 json 제공 링크**
 - https://github.com/southkorea/southkorea-maps/tree/master/kostat
 
 <br>
