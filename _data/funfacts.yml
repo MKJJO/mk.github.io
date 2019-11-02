@@ -10,7 +10,7 @@
 - counter: 1.5
   icon: ion-ios-barcode-outline
   text: Risk Manager
-- counter: 1
+- counter: 1.5
   icon: ion-ios-paperplane-outline
   text: Data Scientist
 - counter: 5
